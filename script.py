@@ -18,26 +18,7 @@ if pilihan_babak_1 == '1':
     print('Senter-mu tiba-tiba berkedip dan hampir mati karena baterai melemah.')
 
 elif pilihan_babak_1 == '2':
-    print('Kamu memilih menyusuri tebing karang yang curam.')
-    print('Ombak besar menghantam tebing dan membuat perjalananmu semakin berbahaya.')
-
-    print('[BABAK 2: EKSPLORASI GUA]')
-    print('Di depanmu terlihat sebuah celah gua dengan cahaya terang.')
-    print('1. Masuk ke dalam gua')
-    print('2. Mengabaikan gua dan terus berjalan')
-
-    pilihan_babak_2 = input('Masukkan pilihanmu (1/2): ')
-
-    if pilihan_babak_2 == '1':
-        print('Kamu masuk ke dalam gua dan menemukan markas peneliti dengan helikopter tua.')
-
-    elif pilihan_babak_2 == '2':
-        print('Kamu mengabaikan gua dan terus berjalan menuju ujung tebing.')
-
-    else:
-        print('Pilihan tidak tersedia.')
-
-else:
-    print('Pilihan tidak tersedia.')
-
+    nyawa -= 20
+    print('Kamu memilih menyusuri tebing karang yang licin.')
+    print(f'Kakimu sempat terkilir karena ombak besar. Nyawamu berkurang 20. (sisa nyawa: {nyawa})')
 
