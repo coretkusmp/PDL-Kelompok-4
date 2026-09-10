@@ -24,6 +24,7 @@ if pilihan_babak_1 == '1':
     if pilihan_babak_1 == "1":
         print("\nSenter mati total! Tapi untungnya sebelum mati, kamu sempat melihat dan mengambil [Peta Kuno].")
         baterai_senter = False
+        # Albert tulis sini, kasi teks, pilihan dan if. kalo udh comment ini hapus
     
 
 
