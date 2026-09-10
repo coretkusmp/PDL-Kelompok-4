@@ -17,16 +17,26 @@ if pilihan_babak_1 == '1':
     print('\nKamu melangkah masuk di dalam hutan. Suasana sangat mencekam.')
     print('Senter-mu tiba-tiba berkedip dan hampir mati karena baterai melemah.\n')
 
-    print("1. Tetap nyalakan senter (menghabiskan sisa daya)")
-    print("2. Matikan senter dan berjalan dalam gelap.")
+    print('1. Tetap nyalakan senter (menghabiskan sisa daya)')
+    print('2. Matikan senter dan berjalan dalam gelap.')
 
     pilihan_babak_1 = input('Masukkan pilihanmu (1/2): ' ) 
-    if pilihan_babak_1 == "1":
-        print("\nSenter mati total! Tapi untungnya sebelum mati, kamu sempat melihat dan mengambil [Peta Kuno].")
+    if pilihan_babak_1 == '1':
+        print('\nSenter mati total! Tapi untungnya sebelum mati, kamu sempat melihat dan mengambil [Peta Kuno].')
         baterai_senter = False
-        # Albert tulis sini, kasi teks, pilihan dan if. kalo udh comment ini hapus
-    
 
+        print('\n--- BABAK 2: PONDOK TERBENGKALAI ---')
+        print('Di tengah hutan, kamu menemukan sebuah pondok reyot.')
+        print('1. Mendobrak pintu depan pondok.')
+        print('2. Mengintip lewat jendela samping.')
+        pilihan_babak_2 = input('Masukkan pilihanmu (1/2): ')
+        if pilihan_babak_2 == '1':
+            print('Pintu terbuka! Di atas meja kamu menemukan [Kunci Emasantik].')
+
+            print('--- BABAK AKHIR: GERBANG BATU ---')
+            print('Kamu tiba di sebuah gerbang batu besar dengan lubang kunci misterius.')
+            print('Kamu memasukkan Kunci Emas dan menggunakan Peta Kuno untuk membaca arah jalan keluar!')
+            print('ENDING SOUR: Kemenangan Sempurna! Kamu keluar pulau dengan selamat dan membawa harta karun.')
 
 elif pilihan_babak_1 == '2':
     nyawa -= 20
