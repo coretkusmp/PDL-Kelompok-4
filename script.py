@@ -42,4 +42,18 @@ elif pilihan_babak_1 == '2':
     nyawa -= 20
     print('\nKamu memilih menyusuri tebing karang yang licin.')
     print(f'Kakimu sempat terkilir karena ombak besar. Nyawamu berkurang 20. (sisa nyawa: {nyawa})')
-    # bagian ini bert
+  
+    print("\n--- BABAK 2: GUA LAUT ---")
+    print("Kamu menemukan celah gua yang di dalamnya memancarkan cahaya terang.")
+    print("1. Masuk ke dalam gua.")
+    print("2. Mengabaikan gua dan terus berjalan ke ujung tebing.")
+    
+    pilihan_babak_2 = input("Pilihanmu (1/2): ")
+
+    if pilihan_babak_2 == '1':
+        print("\nKamu melangkah masuk ke dalam gua dan mengeksplorasi cahaya tersebut...")
+    elif pilihan_babak_2 == '2':
+        print("\nKamu berjalan hingga ujung tebing dan menemukan mercusuar tua yang berfungsi.")
+        print("ENDING NEUTRAL: Kamu menyalakan suar darurat dan diselamatkan oleh kapal penjaga pantai.")
+        
+        
