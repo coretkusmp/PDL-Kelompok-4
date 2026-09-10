@@ -42,3 +42,4 @@ elif pilihan_babak_1 == '2':
     nyawa -= 20
     print('\nKamu memilih menyusuri tebing karang yang licin.')
     print(f'Kakimu sempat terkilir karena ombak besar. Nyawamu berkurang 20. (sisa nyawa: {nyawa})')
+    # bagian ini bert
